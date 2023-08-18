@@ -1,0 +1,182 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #FFC3C3;
+  max-width: 1219px;
+  margin: 0px auto;
+}
+
+header{
+  position: sticky;
+  top: 0px;
+  display: flex;
+  height: 84px;
+  background-color: #007765;
+  font-family: "Roboto";
+}
+
+.container {
+  width: 100%;
+  margin: 0px 54px 0px 55px;
+}
+
+.logo{
+  float: left;
+  margin: 20px 0px 19px;
+}
+
+.navigation{
+  float: right;
+  display: flex;
+  padding: 29px 0px 26px;
+  font-size: 24px;
+} 
+
+.navigation p{
+  margin: 0px 8px 0px 8px;
+  color: white;
+}
+
+
+a:link, a:visited, a:hover,  a:active{
+  color: white;
+  text-decoration-line: none;
+}
+
+/*--------------------------basic----------------------------*/
+.Center{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: 72px;
+  color: #FFFFFF;
+  margin: 0px;
+}
+
+h2{
+  font-size: 64px;
+  color: #007765;
+  margin: 0px;
+}
+
+.h2{
+  margin-right: 54px;
+  margin-left: 55px;
+  padding-top: 48px;
+  height: 75px;
+}
+
+p{
+  margin: 0px;
+}
+
+/*--------------------------Main----------------------------*/
+.main{
+  font-family: "Roboto";
+}
+
+.top{
+  height: 403px;
+  background-image: url("image/backgraund_top.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.the_problem{
+
+  background-color: #EEEEEE;
+}
+
+.the_problem p{
+  font-size: 32px;
+  margin-top: 16px;
+  margin-left: 55px;
+  margin-right: 54px;
+  padding-bottom:92px;
+  min-height: 488px;
+}
+
+.hero{
+  background-image: url(image/hero.png);
+  background-size: cover;
+  background-position: center center;
+  height: 483px;
+}
+
+.hero p{
+  margin: 0px;
+  font-size: 48px;
+  color: #FFFFFF;
+  font-style: italic;
+  text-align: center; 
+}
+
+.PiedPiperCoin{
+  background-color: #FFFFFF;
+  min-height: 604px;
+  font-size: 32px;
+}
+
+.content_1{
+  display: flex;
+  margin-top: 16px;
+  margin-right: 71px;
+  min-height: 115px;
+}
+
+.PiedPiperCoin .content_1 img{
+  margin: 0px 48px 0px 55px;
+}
+
+.content_2{
+  min-height: 223px;
+  margin: 35px 54px 0px 55px;
+}
+
+.the_team{
+  height: 845px;
+  background-color: #EEEEEE;
+}
+
+.form{
+  margin: 56px 0px 82px;
+  display: flex;
+  
+}
+
+.ramka{
+  flex: auto;
+}
+
+.photo{
+  display: flex;
+  margin: 0px auto;
+}
+
+.name{
+  font-size: 24px;
+  color: #007765;
+  text-align: center;
+}
+
+.status{
+  margin: 0px;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+}
+
+footer{
+  background-color:#333333;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 18px;
+  min-height: 176px;
+}
